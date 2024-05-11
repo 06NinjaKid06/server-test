@@ -48,3 +48,20 @@
 [18:10:28] [main/INFO]: Enabled plugin EaglercraftXBungee version 1.0.10 by lax1dude
 [18:10:28] [Netty Boss IO Thread #0/INFO]: Listening on /127.0.0.1:25577
 [18:10:28] [EaglerXBungee: Network Tick Tasks/INFO] [EaglercraftXBungee]: Loaded certificate: /workspaces/server-test/bungee/plugins/EaglercraftXBungee/eagcert/$dl.11da5ec1e9d8efe3fa0e9998b0c264f5c8cb155f.cert
+[18:15:18] [Netty Worker IO Thread #0/WARN] [EaglercraftXBungee]: Server icon is not a file: /workspaces/server-test/bungee/server-icon.png
+[18:15:23] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:53140]: Connected via websocket
+[18:15:23] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:53140]: Origin header is https://localhost:8081
+[18:15:24] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:53140]: Logged in as 'ViggDarver153'
+[18:15:24] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:53140|ViggDarver153] -> UpstreamBridge has connected
+[18:15:24] [Netty Worker IO Thread #1/INFO]: [ViggDarver153|/[0:0:0:0:0:0:0:1%0]:53140] <-> ServerConnector [lobby] has connected
+[18:16:17] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:53140|ViggDarver153] -> UpstreamBridge has disconnected
+[18:16:17] [Netty Worker IO Thread #1/INFO]: [ViggDarver153] disconnected with: Proxy lost connection to server.
+[18:16:17] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:53140|ViggDarver153] <-> DownstreamBridge <-> [lobby] has disconnected
+[18:16:55] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:41672]: Connected via websocket
+[18:16:55] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:41672]: Origin header is http://localhost:8081
+[18:16:55] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:41672]: Logged in as 'ViggDarver153'
+[18:16:55] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:41672|ViggDarver153] -> UpstreamBridge has connected
+[18:16:55] [Netty Worker IO Thread #3/INFO]: [ViggDarver153|/[0:0:0:0:0:0:0:1%0]:41672] <-> ServerConnector [lobby] has connected
+[18:17:20] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:41672|ViggDarver153] -> UpstreamBridge has disconnected
+[18:17:20] [Netty Worker IO Thread #3/INFO]: [ViggDarver153] disconnected with: Proxy lost connection to server.
+[18:17:20] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:41672|ViggDarver153] <-> DownstreamBridge <-> [lobby] has disconnected

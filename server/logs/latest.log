@@ -229,3 +229,13 @@
 
 [18:09:58] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] https://www.spigotmc.org/resources/simple-tpa.64270/[m
 
+[18:15:24] [Thread-8/INFO]: UUID of player ViggDarver153 is 28cb9ce1-441d-33ee-a91c-15d1942cdd52
+[18:15:24] [Server thread/INFO]: ViggDarver153[/[0:0:0:0:0:0:0:1]:33840] logged in with entity id 1389 at ([world]-83.5, 65.0, -53.5)
+[18:16:08] [Server thread/INFO]: ViggDarver153 has just earned the achievement [Taking Inventory]
+[18:16:17] [Server thread/INFO]: ViggDarver153 lost connection: Disconnected
+[18:16:17] [Server thread/INFO]: ViggDarver153 left the game.
+[18:16:55] [Thread-9/INFO]: UUID of player ViggDarver153 is 28cb9ce1-441d-33ee-a91c-15d1942cdd52
+[18:16:55] [Server thread/INFO]: ViggDarver153[/[0:0:0:0:0:0:0:1]:41120] logged in with entity id 1610 at ([world]-47.90666870186696, 69.0, -81.09990868939286)
+[18:17:09] [Server thread/INFO]: [Server] test
+[18:17:20] [Server thread/INFO]: ViggDarver153 lost connection: Internal Exception: java.io.IOException: Connection reset by peer
+[18:17:20] [Server thread/INFO]: ViggDarver153 left the game.
