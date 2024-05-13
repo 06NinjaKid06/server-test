@@ -115,3 +115,11 @@
 [15:43:45] [Netty Worker IO Thread #13/INFO] [EaglercraftXBungee]: [/192.168.177.12:36002]: Logged in as 'Noonecareu8y8434'
 [15:43:45] [Netty Worker IO Thread #13/INFO]: [/192.168.177.12:36002|Noonecareu8y8434] -> UpstreamBridge has connected
 [15:43:45] [Netty Worker IO Thread #13/INFO]: [Noonecareu8y8434|/192.168.177.12:36002] <-> ServerConnector [lobby] has connected
+[15:48:55] [Netty Worker IO Thread #15/INFO] [EaglercraftXBungee]: [/192.168.129.15:58234]: Connected via websocket
+[15:48:55] [Netty Worker IO Thread #15/INFO] [EaglercraftXBungee]: [/192.168.129.15:58234]: Origin header is https://algebra.learnnexus.xyz
+[15:48:55] [Netty Worker IO Thread #15/INFO] [EaglercraftXBungee]: [/192.168.129.15:58234]: Logged in as 'VPXxdarioxXVP'
+[15:48:55] [Netty Worker IO Thread #15/INFO]: [/192.168.129.15:58234|VPXxdarioxXVP] -> UpstreamBridge has connected
+[15:48:55] [Netty Worker IO Thread #15/INFO]: [VPXxdarioxXVP|/192.168.129.15:58234] <-> ServerConnector [lobby] has connected
+[15:56:06] [Netty Worker IO Thread #13/INFO]: [/192.168.177.12:36002|Noonecareu8y8434] -> UpstreamBridge has disconnected
+[15:56:06] [Netty Worker IO Thread #13/INFO]: [Noonecareu8y8434] disconnected with: Proxy lost connection to server.
+[15:56:06] [Netty Worker IO Thread #13/INFO]: [/192.168.177.12:36002|Noonecareu8y8434] <-> DownstreamBridge <-> [lobby] has disconnected
