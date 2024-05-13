@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "uuid": "5b111053-a3cf-3363-98c9-ca3fb20fdffc",
+    "name": "Pix3yz",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "f77d02c2-c2f6-38ba-9e1d-b73c256f8e4e",
+    "name": "06NinjaKid06",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "41af051e-972f-319a-bb69-9000c0abefbd",
+    "name": "TheBestGamer1237",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "f3c2757d-aaf9-3b7b-b399-7483063d4d01",
+    "name": "VPXxdarioxXVP",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]
