@@ -23,3 +23,12 @@
 [00:35:24] [Netty Worker IO Thread #20/INFO]: [/192.168.129.15:34530|Pix3yz_] -> UpstreamBridge has disconnected
 [00:35:24] [Netty Worker IO Thread #20/INFO]: [Pix3yz_] disconnected with: Proxy lost connection to server.
 [00:35:24] [Netty Worker IO Thread #20/INFO]: [/192.168.129.15:34530|Pix3yz_] <-> DownstreamBridge <-> [lobby] has disconnected
+[00:39:19] [Shutdown Thread/INFO]: Closing listener [id: 0x6235aef3, L:/127.0.0.1:25577]
+[00:39:19] [Shutdown Thread/INFO]: Closing pending connections
+[00:39:19] [Shutdown Thread/INFO]: Disconnecting 0 connections
+[00:39:19] [Shutdown Thread/INFO]: Disabling plugins
+[00:39:19] [Shutdown Thread/INFO] [EaglercraftXBungee]: Eaglercraft listener closed: /0.0.0.0:8081
+[00:39:19] [Shutdown Thread/INFO] [EaglercraftXBungee]: Successfully disconnected from database 'jdbc:sqlite:eaglercraft_skins_cache.db'
+[00:39:19] [Shutdown Thread/INFO] [EaglercraftXBungee]: Stopping skin cache HTTP client...
+[00:39:21] [Shutdown Thread/INFO]: Closing IO threads
+[00:39:23] [Shutdown Thread/INFO]: Thank you and goodbye

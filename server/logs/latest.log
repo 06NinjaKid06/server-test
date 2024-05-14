@@ -162,3 +162,28 @@
 [00:35:19] [Async Chat Thread - #12/INFO]: [m<[0;31;22mPix3yz_[m> the coordinates for home are x:-88,y65,z:-56[m
 [00:35:24] [Server thread/INFO]: Pix3yz_ lost connection: Disconnected
 [00:35:24] [Server thread/INFO]: Pix3yz_ left the game.
+[00:39:11] [Server thread/INFO]: Stopping the server
+[00:39:11] [Server thread/INFO]: Stopping server
+[00:39:11] [Server thread/INFO]: Disabling EssentialsChat v2.21.0-dev+81-cde7184
+[00:39:11] [Server thread/INFO]: Disabling EssentialsSpawn v2.21.0-dev+81-cde7184
+[00:39:11] [Server thread/INFO]: Disabling EssentialsProtect v2.21.0-dev+81-cde7184
+[00:39:11] [Server thread/INFO]: Disabling Essentials v2.21.0-dev+81-cde7184
+[00:39:11] [Server thread/INFO]: [Vault][Economy] Essentials Economy unhooked.
+[00:39:11] [Server thread/INFO]: [LoginSecurity] Disabling LoginSecurity v3.2.0
+[00:39:11] [Server thread/INFO]: [LoginSecurity] Waiting for queued tasks...
+[00:39:11] [Server thread/INFO]: [LoginSecurity] ExecutorService shut down, ready to disable.
+[00:39:11] [Server thread/INFO]: [Vault] Disabling Vault v1.6.7-b${env.TRAVIS_BUILD_NUMBER}
+[00:39:11] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v6.1;no_git_id
+[00:39:11] [Server thread/INFO]: [SimpleHomes] Disabling SimpleHomes v2.2
+[00:39:11] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.128
+[00:39:11] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[00:39:11] [Server thread/INFO]: [LuckPerms] Closing storage...
+[00:39:11] [Server thread/INFO]: [LuckPerms] Goodbye!
+[00:39:11] [Server thread/INFO]: [SimpleTpa] Disabling SimpleTpa v6.4
+[00:39:11] [Server thread/INFO]: [0;36;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
+[00:39:11] [Server thread/INFO]: [0;36;1m[21m[SimpleTpa] Simple Tpa has been disabled on version 6.4[m
+[00:39:11] [Server thread/INFO]: Saving players
+[00:39:11] [Server thread/INFO]: Saving worlds
+[00:39:11] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[00:39:11] [Server thread/INFO]: Saving chunks for level 'world_nether'/Nether
+[00:39:11] [Server thread/INFO]: Saving chunks for level 'world_the_end'/The End
