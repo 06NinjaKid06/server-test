@@ -1,297 +1,164 @@
-[20:28:17] [Server thread/INFO]: Starting minecraft server version 1.8.8
-[20:28:17] [Server thread/INFO]: Loading properties
-[20:28:17] [Server thread/INFO]: Default game type: SURVIVAL
-[20:28:17] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
-[20:28:17] [Server thread/INFO]: Debug logging is disabled
-[20:28:17] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
-[20:28:17] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[20:28:17] [Server thread/INFO]: Using 4 threads for Netty based IO
-[20:28:17] [Server thread/INFO]: Data value allowed items: 
-[20:28:17] [Server thread/INFO]: Generating keypair
-[20:28:17] [Server thread/INFO]: Starting Minecraft server on localhost:25565
-[20:28:17] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
-[20:28:17] [Server thread/INFO]: Using default channel type
-[20:28:17] [Server thread/INFO]: Set PluginClassLoader as parallel capable
-[20:28:18] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v6.4
-[20:28:18] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.128
-[20:28:18] [Server thread/INFO]: [SimpleHomes] Loading SimpleHomes v2.2
-[20:28:18] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1;no_git_id
-[20:28:18] [Server thread/INFO]: [Vault] Loading Vault v1.6.7-b${env.TRAVIS_BUILD_NUMBER}
-[20:28:18] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.2.0
-[20:28:18] [Server thread/INFO]: [Essentials] Loading Essentials v2.21.0-dev+81-cde7184
-[20:28:18] [Server thread/INFO]: [EssentialsProtect] Loading EssentialsProtect v2.21.0-dev+81-cde7184
-[20:28:18] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.21.0-dev+81-cde7184
-[20:28:18] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.21.0-dev+81-cde7184
-[20:28:18] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.128
-[20:28:18] [Server thread/INFO]: [0;36;1m       [0;36;22m __    [m
-[20:28:18] [Server thread/INFO]: [0;36;1m  |    [0;36;22m|__)   [0;32;22mLuckPerms[m [0;36;1mv5.4.128[m
-[20:28:18] [Server thread/INFO]: [0;36;1m  |___ [0;36;22m|      [0;30;1mRunning on Bukkit - CraftBukkit[m
-[20:28:18] [Server thread/INFO]: [m
-[20:28:18] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[20:28:19] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[20:28:19] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[20:28:19] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[20:28:19] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1379ms)
-[20:28:19] [Server thread/INFO]: [Vault] Enabling Vault v1.6.7-b${env.TRAVIS_BUILD_NUMBER}
-[20:28:19] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
-[20:28:20] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[20:28:20] [Server thread/INFO]: [Vault] Enabled Version 1.6.7-b${env.TRAVIS_BUILD_NUMBER}
-[20:28:20] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
-[20:28:20] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[20:28:20] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[20:28:20] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
-[20:28:20] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
-[20:28:20] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[20:28:20] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
-[20:28:20] [Server thread/INFO]: Preparing level "world"
-[20:28:20] [Server thread/INFO]: -------- World Settings For [world] --------
-[20:28:20] [Server thread/INFO]: Mob Spawn Range: 4
-[20:28:20] [Server thread/INFO]: Anti X-Ray: true
-[20:28:20] [Server thread/INFO]: 	Engine Mode: 1
-[20:28:20] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[20:28:20] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[20:28:20] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[20:28:20] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[20:28:20] [Server thread/INFO]: Cane Growth Modifier: 100%
-[20:28:20] [Server thread/INFO]: Melon Growth Modifier: 100%
-[20:28:20] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[20:28:20] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[20:28:20] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[20:28:20] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[20:28:20] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[20:28:20] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[20:28:20] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[20:28:20] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[20:28:20] [Server thread/INFO]: Random Lighting Updates: false
-[20:28:20] [Server thread/INFO]: Structure Info Saving: true
-[20:28:20] [Server thread/INFO]: Sending up to 10 chunks per packet
-[20:28:20] [Server thread/INFO]: Max Entity Collisions: 8
-[20:28:20] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[20:28:20] [Server thread/INFO]: Max TNT Explosions: 100
-[20:28:20] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[20:28:20] [Server thread/INFO]: Item Despawn Rate: 6000
-[20:28:20] [Server thread/INFO]: Item Merge Radius: 2.5
-[20:28:20] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[20:28:20] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[20:28:20] [Server thread/INFO]: View Distance: 4
-[20:28:20] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[20:28:20] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[20:28:20] [Server thread/INFO]: Clear tick list: false
-[20:28:20] [Server thread/INFO]: Experience Merge Radius: 3.0
-[20:28:20] [Server thread/INFO]: -------- World Settings For [world] --------
-[20:28:20] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[20:28:20] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[20:28:20] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[20:28:20] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[20:28:20] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[20:28:20] [Server thread/INFO]: Water over lava flow speed: 5
-[20:28:20] [Server thread/INFO]: Fix TNT cannons: false
-[20:28:20] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[20:28:20] [Server thread/INFO]: Keep spawn chunk loaded: true
-[20:28:20] [Server thread/INFO]: World async lighting: false
-[20:28:20] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[20:28:20] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[20:28:20] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[20:28:20] [Server thread/INFO]: Mob Spawn Range: 4
-[20:28:20] [Server thread/INFO]: Anti X-Ray: true
-[20:28:20] [Server thread/INFO]: 	Engine Mode: 1
-[20:28:20] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[20:28:20] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[20:28:20] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[20:28:20] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[20:28:20] [Server thread/INFO]: Cane Growth Modifier: 100%
-[20:28:20] [Server thread/INFO]: Melon Growth Modifier: 100%
-[20:28:20] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[20:28:20] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[20:28:20] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[20:28:20] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[20:28:20] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[20:28:20] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[20:28:20] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[20:28:20] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[20:28:20] [Server thread/INFO]: Random Lighting Updates: false
-[20:28:20] [Server thread/INFO]: Structure Info Saving: true
-[20:28:20] [Server thread/INFO]: Sending up to 10 chunks per packet
-[20:28:20] [Server thread/INFO]: Max Entity Collisions: 8
-[20:28:20] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[20:28:20] [Server thread/INFO]: Max TNT Explosions: 100
-[20:28:20] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[20:28:20] [Server thread/INFO]: Item Despawn Rate: 6000
-[20:28:20] [Server thread/INFO]: Item Merge Radius: 2.5
-[20:28:20] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[20:28:20] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[20:28:20] [Server thread/INFO]: View Distance: 4
-[20:28:20] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[20:28:20] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[20:28:20] [Server thread/INFO]: Clear tick list: false
-[20:28:20] [Server thread/INFO]: Experience Merge Radius: 3.0
-[20:28:20] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[20:28:20] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[20:28:20] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[20:28:20] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[20:28:20] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[20:28:20] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[20:28:20] [Server thread/INFO]: Water over lava flow speed: 5
-[20:28:20] [Server thread/INFO]: Fix TNT cannons: false
-[20:28:20] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[20:28:20] [Server thread/INFO]: Keep spawn chunk loaded: true
-[20:28:20] [Server thread/INFO]: World async lighting: false
-[20:28:20] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[20:28:20] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[20:28:20] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[20:28:20] [Server thread/INFO]: Mob Spawn Range: 4
-[20:28:20] [Server thread/INFO]: Anti X-Ray: true
-[20:28:20] [Server thread/INFO]: 	Engine Mode: 1
-[20:28:20] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[20:28:20] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[20:28:20] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[20:28:20] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[20:28:20] [Server thread/INFO]: Cane Growth Modifier: 100%
-[20:28:20] [Server thread/INFO]: Melon Growth Modifier: 100%
-[20:28:20] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[20:28:20] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[20:28:20] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[20:28:20] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[20:28:20] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[20:28:20] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[20:28:20] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[20:28:20] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[20:28:20] [Server thread/INFO]: Random Lighting Updates: false
-[20:28:20] [Server thread/INFO]: Structure Info Saving: true
-[20:28:20] [Server thread/INFO]: Sending up to 10 chunks per packet
-[20:28:20] [Server thread/INFO]: Max Entity Collisions: 8
-[20:28:20] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[20:28:20] [Server thread/INFO]: Max TNT Explosions: 100
-[20:28:20] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[20:28:20] [Server thread/INFO]: Item Despawn Rate: 6000
-[20:28:20] [Server thread/INFO]: Item Merge Radius: 2.5
-[20:28:20] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[20:28:20] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[20:28:20] [Server thread/INFO]: View Distance: 4
-[20:28:20] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[20:28:20] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[20:28:20] [Server thread/INFO]: Clear tick list: false
-[20:28:20] [Server thread/INFO]: Experience Merge Radius: 3.0
-[20:28:20] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[20:28:20] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[20:28:20] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[20:28:20] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[20:28:20] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[20:28:20] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[20:28:20] [Server thread/INFO]: Water over lava flow speed: 5
-[20:28:20] [Server thread/INFO]: Fix TNT cannons: false
-[20:28:20] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[20:28:20] [Server thread/INFO]: Keep spawn chunk loaded: true
-[20:28:20] [Server thread/INFO]: World async lighting: false
-[20:28:20] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[20:28:20] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[20:28:20] [Server thread/INFO]: Preparing start region for level 0 (Seed: -2507610703897818105)
-[20:28:21] [Server thread/INFO]: Preparing spawn area: 41%
-[20:28:22] [Server thread/INFO]: Preparing start region for level 1 (Seed: -2507610703897818105)
-[20:28:22] [Server thread/INFO]: Preparing start region for level 2 (Seed: -2507610703897818105)
-[20:28:22] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v6.4
-[20:28:22] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
-[20:28:22] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] Simple Tpa has been enabled on version 6.4[m
-[20:28:22] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
-[20:28:22] [Server thread/INFO]: [SimpleHomes] Enabling SimpleHomes v2.2
-[20:28:22] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1;no_git_id
-[20:28:22] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[20:28:23] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
-[20:28:23] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
-[20:28:23] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
-[20:28:23] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
-[20:28:23] [Server thread/INFO]: [LoginSecurity] Registering commands...
-[20:28:23] [Server thread/INFO]: [LoginSecurity] Registering listeners...
-[20:28:23] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+81-cde7184
-[20:28:23] [Server thread/INFO]: You are running a server with limited API functionality. EssentialsX will still work, but certain features may be disabled.
-[20:28:23] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
-[20:28:23] [Server thread/INFO]: No kits found to migrate.
-[20:28:23] [Server thread/INFO]: Loaded 853 items from items.csv.
-[20:28:23] [Server thread/INFO]: Using locale en_US
-[20:28:23] [Server thread/INFO]: ServerListPingEvent: Spigot iterator API
-[20:28:23] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
-[20:28:23] [Server thread/INFO]: [Vault][Economy] Essentials Economy hooked.
-[20:28:23] [Server thread/INFO]: Using Vault based permissions (LuckPerms)
-[20:28:23] [Server thread/INFO]: [EssentialsProtect] Enabling EssentialsProtect v2.21.0-dev+81-cde7184
-[20:28:23] [Server thread/INFO]: Continuing to enable Protect.
-[20:28:23] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
-[20:28:23] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.21.0-dev+81-cde7184
-[20:28:23] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
-[20:28:23] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.21.0-dev+81-cde7184
-[20:28:23] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
-[20:28:23] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[20:28:23] [Server thread/INFO]: Done (3.637s)! For help, type "help" or "?"
-[20:28:23] [Server thread/INFO]: Timings Reset
-[20:28:23] [Server thread/INFO]: Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.6.7-b${env.TRAVIS_BUILD_NUMBER})!
-[20:28:23] [Craft Scheduler Thread - 0/INFO]: §6Fetching version information...
-[20:28:23] [Craft Scheduler Thread - 5/INFO]: [Vault] Checking for Updates ... 
-[20:28:23] [Craft Scheduler Thread - 5/WARN]: [Vault] Stable Version: 1.7.3 is out! You are still running version: 1.6.7
-[20:28:23] [Craft Scheduler Thread - 5/WARN]: [Vault] Update at: https://dev.bukkit.org/projects/vault
-[20:28:23] [Craft Scheduler Thread - 1/INFO]: [0;31;1m[21m[SimpleTpa] There is a new update available.[m
-[20:28:23] [Craft Scheduler Thread - 1/INFO]: [0;31;1m[SimpleTpa] There is a new update available:[m
-[20:28:23] [Craft Scheduler Thread - 1/INFO]: [0;31;1m[SimpleTpa] https://www.spigotmc.org/resources/simple-tpa.64270/[m
-[20:29:16] [Thread-8/INFO]: UUID of player 06NinjaKid06 is f77d02c2-c2f6-38ba-9e1d-b73c256f8e4e
-[20:29:16] [Server thread/INFO]: 06NinjaKid06[/192.168.177.12:53470] logged in with entity id 161 at ([world]-85.59307404689584, 44.0, -98.3000000119209)
-[20:29:16] [Server thread/WARN]: Permissions lag notice with (LuckPermsHandler). Response took 37.989018ms. Summary: Getting prefix for 06NinjaKid06
-[20:29:24] [Thread-9/INFO]: UUID of player TheBestGamer1237 is 41af051e-972f-319a-bb69-9000c0abefbd
-[20:29:24] [Server thread/INFO]: TheBestGamer1237[/192.168.50.138:54672] logged in with entity id 162 at ([world]-74.71187105342719, 63.0, -46.87116703923476)
-[20:29:39] [Server thread/INFO]: TheBestGamer1237 lost connection: Disconnected
-[20:29:39] [Server thread/INFO]: TheBestGamer1237 left the game.
-[20:29:43] [Server thread/INFO]: 06NinjaKid06 lost connection: Disconnected
-[20:29:43] [Server thread/INFO]: 06NinjaKid06 left the game.
-[20:29:46] [Thread-10/INFO]: UUID of player TheBestGamer1237 is 41af051e-972f-319a-bb69-9000c0abefbd
-[20:29:46] [Server thread/INFO]: TheBestGamer1237[/192.168.129.15:46482] logged in with entity id 165 at ([world]-74.71187105342719, 63.0, -46.87116703923476)
-[20:29:47] [Thread-11/INFO]: UUID of player 06NinjaKid06 is f77d02c2-c2f6-38ba-9e1d-b73c256f8e4e
-[20:29:47] [Server thread/INFO]: 06NinjaKid06[/192.168.50.138:46494] logged in with entity id 181 at ([world]-85.59512511603033, 44.0, -98.24304213802147)
-[20:31:17] [Async Chat Thread - #0/INFO]: [m<[0;31;22m06NinjaKid06[m> boo[m
-[20:32:01] [Async Chat Thread - #0/INFO]: [m<[0;31;22m06NinjaKid06[m> this is way better than anything i could make[m
-[20:32:11] [Async Chat Thread - #0/INFO]: [m<[0;31;22mTheBestGamer1237[m> experience[m
-[20:32:37] [Async Chat Thread - #0/INFO]: [m<[0;31;22m06NinjaKid06[m> i would have just made a cute small house except with a basement for space lol[m
-[20:32:47] [Async Chat Thread - #0/INFO]: [m<[0;31;22mTheBestGamer1237[m> storage[m
-[20:33:04] [Async Chat Thread - #0/INFO]: [m<[0;31;22mTheBestGamer1237[m> and need to be big for 4 ppl[m
-[20:33:24] [Async Chat Thread - #0/INFO]: [m<[0;31;22m06NinjaKid06[m> 4-5[m
-[20:33:30] [Async Chat Thread - #0/INFO]: [m<[0;31;22mTheBestGamer1237[m> ye[m
-[20:36:45] [Async Chat Thread - #1/INFO]: [m<[0;31;22m06NinjaKid06[m> I FOUND GOLD[m
-[20:36:52] [Async Chat Thread - #1/INFO]: [m<[0;31;22mTheBestGamer1237[m> nice[m
-[20:37:37] [Thread-13/INFO]: UUID of player VPXxdarioxXVP is f3c2757d-aaf9-3b7b-b399-7483063d4d01
-[20:37:37] [Server thread/INFO]: VPXxdarioxXVP[/192.168.177.12:50380] logged in with entity id 1075 at ([world]-93.45929839516866, 37.0, -106.62420982619732)
-[20:37:39] [Async Chat Thread - #1/INFO]: [m<[0;31;22m06NinjaKid06[m> do you have an apple[m
-[20:37:45] [Async Chat Thread - #1/INFO]: [m<[0;31;22mTheBestGamer1237[m> nope[m
-[20:37:57] [Server thread/INFO]: VPXxdarioxXVP issued server command: /lac update
-[20:37:57] [Craft Scheduler Thread - 7/INFO]: [LoginSecurity] Downloading file LoginSecurity-3.2.0-Bukkit (1).jar...
-[20:37:57] [Craft Scheduler Thread - 7/INFO]: [LoginSecurity] Download complete!
-[20:39:10] [Server thread/INFO]: 06NinjaKid06 was slain by VPXxdarioxXVP
-[20:39:23] [Async Chat Thread - #2/INFO]: [m<[0;31;22mVPXxdarioxXVP[m> tenge[m
-[20:39:29] [Async Chat Thread - #2/INFO]: [m<[0;31;22mVPXxdarioxXVP[m> teeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeenge[m
-[20:39:39] [Async Chat Thread - #2/INFO]: [m<[0;31;22mVPXxdarioxXVP[m> ill give back[m
-[20:39:44] [Async Chat Thread - #2/INFO]: [m<[0;31;22mVPXxdarioxXVP[m> dntwr[m
-[20:40:47] [Server thread/INFO]: 06NinjaKid06 issued server command: /back
-[20:40:57] [Thread-14/INFO]: UUID of player Pix3yz is 5b111053-a3cf-3363-98c9-ca3fb20fdffc
-[20:40:57] [Server thread/INFO]: Pix3yz[/192.168.129.15:33298] logged in with entity id 1733 at ([world]-80.840734519781, 65.0, -54.108522406171)
-[20:42:11] [Thread-15/INFO]: UUID of player DarvlerYeer512 is e31095ed-9a3b-3a65-864e-07bb3f5fe687
-[20:42:11] [Server thread/INFO]: DarvlerYeer512[/192.168.129.15:40050] logged in with entity id 2036 at ([world]-92.5, 61.0, -56.5)
-[20:43:13] [Server thread/INFO]: VPXxdarioxXVP issued server command: /lac update
-[20:43:13] [Craft Scheduler Thread - 13/INFO]: [LoginSecurity] Downloading file LoginSecurity-3.2.0-Bukkit (1).jar...
-[20:43:14] [Craft Scheduler Thread - 13/INFO]: [LoginSecurity] Download complete!
-[20:43:27] [Server thread/INFO]: Pix3yz was slain by VPXxdarioxXVP
-[20:44:38] [Server thread/INFO]: DarvlerYeer512 issued server command: /spawn point
-[20:44:38] [Server thread/INFO]: §cDarvlerYeer512 §4was denied access to command.
-[20:45:01] [Server thread/INFO]: VPXxdarioxXVP was slain by Zombie
-[20:45:05] [Server thread/INFO]: VPXxdarioxXVP issued server command: /back
-[20:45:23] [Server thread/INFO]: 06NinjaKid06 issued server command: /tpa VPXxdarioxXVP
-[20:45:29] [Async Chat Thread - #3/INFO]: [m<DarvlerYeer512[m> aKARA MESSI ANKAR MESSI ANKARA MESSI[m
-[20:47:16] [Server thread/INFO]: 06NinjaKid06 issued server command: /tpa VPXxdarioxXVP
-[20:47:20] [Async Chat Thread - #4/INFO]: [m<[0;31;22mPix3yz[m> dario did you steal my 7 iron and my iron pickaxe[m
-[20:47:50] [Server thread/INFO]: DarvlerYeer512 has just earned the achievement [Taking Inventory]
-[20:48:34] [Server thread/INFO]: Pix3yz was slain by VPXxdarioxXVP
-[20:48:52] [Server thread/INFO]: VPXxdarioxXVP lost connection: Disconnected
-[20:48:52] [Server thread/INFO]: VPXxdarioxXVP left the game.
-[20:48:54] [Async Chat Thread - #5/INFO]: [m<[0;31;22m06NinjaKid06[m> can i have your apple for a golden apple[m
-[20:50:16] [Server thread/INFO]: TheBestGamer1237 lost connection: Disconnected
-[20:50:16] [Server thread/INFO]: TheBestGamer1237 left the game.
-[20:51:55] [Server thread/INFO]: DarvlerYeer512 lost connection: Disconnected
-[20:51:55] [Server thread/INFO]: DarvlerYeer512 left the game.
-[20:53:30] [Async Chat Thread - #6/INFO]: [m<[0;31;22m06NinjaKid06[m> i gtg bye[m
-[20:53:34] [Server thread/INFO]: 06NinjaKid06 lost connection: Disconnected
-[20:53:34] [Server thread/INFO]: 06NinjaKid06 left the game.
-[20:59:00] [Thread-2/INFO]: Stopping server
+[00:00:01] [Async Chat Thread - #9/INFO]: [m<[0;31;22mVPXxdarioxXVP[m> conner make the beds[m
+[00:00:08] [Async Chat Thread - #9/INFO]: [m<[0;31;22m06NinjaKid06[m> need wood[m
+[00:00:14] [Async Chat Thread - #9/INFO]: [m<[0;31;22mVPXxdarioxXVP[m> and then i think were good[m
+[00:00:19] [Async Chat Thread - #9/INFO]: [m<[0;31;22mPix3yz_[m> how much wood?[m
+[00:00:28] [Async Chat Thread - #9/INFO]: [m<[0;31;22mVPXxdarioxXVP[m> yeah how much[m
+[00:00:35] [Async Chat Thread - #9/INFO]: [m<[0;31;22m06NinjaKid06[m> i alrady got some[m
+[00:00:41] [Async Chat Thread - #9/INFO]: [m<[0;31;22mVPXxdarioxXVP[m> k[m
+[00:00:55] [Async Chat Thread - #9/INFO]: [m<[0;31;22m06NinjaKid06[m> nvm need 3 more[m
+[00:01:03] [Async Chat Thread - #9/INFO]: [m<[0;31;22mVPXxdarioxXVP[m> k[m
+[00:01:43] [Async Chat Thread - #9/INFO]: [m<[0;31;22mVPXxdarioxXVP[m> is that good[m
+[00:01:50] [Async Chat Thread - #9/INFO]: [m<[0;31;22mVPXxdarioxXVP[m> i gave you wood[m
+[00:02:03] [Async Chat Thread - #9/INFO]: [m<[0;31;22m06NinjaKid06[m> yes[m
+[00:02:06] [Async Chat Thread - #9/INFO]: [m<[0;31;22mVPXxdarioxXVP[m> ok[m
+[00:02:20] [Async Chat Thread - #9/INFO]: [m<[0;31;22m06NinjaKid06[m> i need 3 more woll gonna go get sheep[m
+[00:02:27] [Async Chat Thread - #9/INFO]: [m<[0;31;22mVPXxdarioxXVP[m> ok bye[m
+[00:02:29] [Async Chat Thread - #9/INFO]: [m<[0;31;22m06NinjaKid06[m> nvm its dark[m
+[00:02:40] [Async Chat Thread - #9/INFO]: [m<[0;31;22mVPXxdarioxXVP[m> did you create at least a bed[m
+[00:02:47] [Async Chat Thread - #9/INFO]: [m<[0;31;22m06NinjaKid06[m> where should i put the current beds[m
+[00:02:51] [Async Chat Thread - #9/INFO]: [m<[0;31;22m06NinjaKid06[m> yeah i made 4[m
+[00:02:52] [Async Chat Thread - #9/INFO]: [m<[0;31;22mVPXxdarioxXVP[m> her[m
+[00:02:58] [Async Chat Thread - #9/INFO]: [m<[0;31;22mVPXxdarioxXVP[m> e[m
+[00:03:08] [Async Chat Thread - #9/INFO]: [m<[0;31;22mVPXxdarioxXVP[m> srry[m
+[00:03:16] [Async Chat Thread - #9/INFO]: [m<[0;31;22m06NinjaKid06[m> below too?[m
+[00:03:20] [Async Chat Thread - #9/INFO]: [m<[0;31;22m06NinjaKid06[m> or other side[m
+[00:03:22] [Async Chat Thread - #9/INFO]: [m<[0;31;22mVPXxdarioxXVP[m> mmmmm yeah[m
+[00:03:35] [Async Chat Thread - #9/INFO]: [m<[0;31;22mVPXxdarioxXVP[m> mmmm foood[m
+[00:03:40] [Async Chat Thread - #9/INFO]: [m<[0;31;22mVPXxdarioxXVP[m> mmmm[m
+[00:03:54] [Async Chat Thread - #9/INFO]: [m<[0;31;22mVPXxdarioxXVP[m> isabella go too sleep conner you too[m
+[00:04:10] [Async Chat Thread - #9/INFO]: [m<[0;31;22m06NinjaKid06[m> there[m
+[00:04:14] [Async Chat Thread - #9/INFO]: [m<[0;31;22mPix3yz_[m> i need food[m
+[00:04:20] [Async Chat Thread - #9/INFO]: [m<[0;31;22mVPXxdarioxXVP[m> nahh i only slept for five sec[m
+[00:04:25] [Async Chat Thread - #9/INFO]: [m<[0;31;22m06NinjaKid06[m> same[m
+[00:04:36] [Async Chat Thread - #9/INFO]: [m<[0;31;22mPix3yz_[m> i thought it lagged[m
+[00:04:44] [Async Chat Thread - #9/INFO]: [m<[0;31;22mVPXxdarioxXVP[m> facts[m
+[00:05:06] [Async Chat Thread - #9/INFO]: [m<[0;31;22mPix3yz_[m> #watching anime[m
+[00:05:29] [Async Chat Thread - #9/INFO]: [m<[0;31;22mVPXxdarioxXVP[m> which anime[m
+[00:05:37] [Async Chat Thread - #9/INFO]: [m<[0;31;22mPix3yz_[m> demon slayer[m
+[00:05:47] [Async Chat Thread - #9/INFO]: [m<[0;31;22mVPXxdarioxXVP[m> nice[m
+[00:06:13] [Async Chat Thread - #9/INFO]: [m<[0;31;22mVPXxdarioxXVP[m> yo i thnk where good[m
+[00:06:20] [Async Chat Thread - #9/INFO]: [m<[0;31;22mVPXxdarioxXVP[m> what do yall think[m
+[00:06:24] [Async Chat Thread - #9/INFO]: [m<[0;31;22m06NinjaKid06[m> yeah[m
+[00:06:24] [Async Chat Thread - #9/INFO]: [m<[0;31;22mPix3yz_[m> why[m
+[00:06:34] [Async Chat Thread - #9/INFO]: [m<[0;31;22mVPXxdarioxXVP[m> idk just saying[m
+[00:06:55] [Async Chat Thread - #9/INFO]: [m<[0;31;22mVPXxdarioxXVP[m> lets go on an adventure[m
+[00:07:11] [Async Chat Thread - #9/INFO]: [m<[0;31;22m06NinjaKid06[m> k[m
+[00:07:12] [Async Chat Thread - #9/INFO]: [m<[0;31;22mVPXxdarioxXVP[m> should we[m
+[00:07:19] [Server thread/INFO]: 06NinjaKid06 issued server command: /home home
+[00:07:23] [Async Chat Thread - #9/INFO]: [m<[0;31;22m06NinjaKid06[m> sure[m
+[00:07:28] [Async Chat Thread - #9/INFO]: [m<[0;31;22mVPXxdarioxXVP[m> alright[m
+[00:07:33] [Async Chat Thread - #9/INFO]: [m<[0;31;22mVPXxdarioxXVP[m> lets go[m
+[00:07:34] [Async Chat Thread - #9/INFO]: [m<[0;31;22mPix3yz_[m> where to[m
+[00:07:44] [Async Chat Thread - #9/INFO]: [m<[0;31;22mVPXxdarioxXVP[m> where conner goes[m
+[00:07:49] [Async Chat Thread - #9/INFO]: [m<[0;31;22mVPXxdarioxXVP[m> he knows[m
+[00:08:01] [Async Chat Thread - #9/INFO]: [m<[0;31;22mVPXxdarioxXVP[m> to somewhere its not a forest[m
+[00:08:02] [Async Chat Thread - #9/INFO]: [m<[0;31;22m06NinjaKid06[m> the non-jungle?[m
+[00:08:07] [Async Chat Thread - #9/INFO]: [m<[0;31;22mVPXxdarioxXVP[m> yes[m
+[00:08:09] [Async Chat Thread - #9/INFO]: [m<[0;31;22m06NinjaKid06[m> its still a forest[m
+[00:08:14] [Async Chat Thread - #9/INFO]: [m<[0;31;22m06NinjaKid06[m> just not jungle[m
+[00:08:18] [Async Chat Thread - #9/INFO]: [m<[0;31;22mVPXxdarioxXVP[m> k[m
+[00:08:23] [Async Chat Thread - #9/INFO]: [m<[0;31;22mVPXxdarioxXVP[m> lets go[m
+[00:08:28] [Async Chat Thread - #9/INFO]: [m<[0;31;22mPix3yz_[m> ok[m
+[00:09:31] [Async Chat Thread - #10/INFO]: [m<[0;31;22mPix3yz_[m> hold on[m
+[00:09:48] [Async Chat Thread - #10/INFO]: [m<[0;31;22mPix3yz_[m> where you go[m
+[00:09:57] [Async Chat Thread - #10/INFO]: [m<[0;31;22mVPXxdarioxXVP[m> o shit we lost her[m
+[00:10:04] [Async Chat Thread - #10/INFO]: [m<[0;31;22m06NinjaKid06[m> do /tpa to our username[m
+[00:10:11] [Async Chat Thread - #10/INFO]: [m<[0;31;22mVPXxdarioxXVP[m> oh yeah[m
+[00:10:44] [Async Chat Thread - #10/INFO]: [m<[0;31;22m06NinjaKid06[m> i think im lost[m
+[00:10:45] [Async Chat Thread - #10/INFO]: [m<[0;31;22mPix3yz_[m> brb[m
+[00:10:47] [Async Chat Thread - #10/INFO]: [m<[0;31;22mVPXxdarioxXVP[m> damn so much forest[m
+[00:10:51] [Async Chat Thread - #10/INFO]: [m<[0;31;22mPix3yz_[m> g[m
+[00:10:54] [Server thread/INFO]: Pix3yz_ issued server command: /l
+[00:10:54] [Async Chat Thread - #10/INFO]: [m<[0;31;22mVPXxdarioxXVP[m> g[m
+[00:11:04] [Async Chat Thread - #10/INFO]: [m<[0;31;22mPix3yz_[m> l[m
+[00:11:10] [Async Chat Thread - #10/INFO]: [m<[0;31;22m06NinjaKid06[m> what is that[m
+[00:11:12] [Async Chat Thread - #10/INFO]: [m<[0;31;22mVPXxdarioxXVP[m> l[m
+[00:11:18] [Async Chat Thread - #10/INFO]: [m<[0;31;22mVPXxdarioxXVP[m> wth[m
+[00:11:29] [Server thread/INFO]: Pix3yz_ lost connection: Disconnected
+[00:11:29] [Server thread/INFO]: Pix3yz_ left the game.
+[00:11:32] [Async Chat Thread - #10/INFO]: [m<[0;31;22mVPXxdarioxXVP[m> perfect[m
+[00:11:32] [Async Chat Thread - #10/INFO]: [m<[0;31;22m06NinjaKid06[m> 5th bed i guess[m
+[00:11:38] [Thread-19/INFO]: UUID of player Pix3yz_ is e436785d-aa3b-397f-8111-9d54baa8301f
+[00:11:38] [Server thread/INFO]: Pix3yz_[/192.168.129.15:32894] logged in with entity id 86742 at ([world]-107.75254373356466, 75.0, -169.54967643322857)
+[00:12:05] [Async Chat Thread - #10/INFO]: [m<[0;31;22mVPXxdarioxXVP[m> conner wait[m
+[00:12:05] [Async Chat Thread - #10/INFO]: [m<[0;31;22mPix3yz_[m> hi[m
+[00:12:15] [Async Chat Thread - #10/INFO]: [m<[0;31;22m06NinjaKid06[m> hi[m
+[00:12:16] [Async Chat Thread - #10/INFO]: [m<[0;31;22mVPXxdarioxXVP[m> let isabella tp[m
+[00:12:34] [Async Chat Thread - #10/INFO]: [m<[0;31;22mVPXxdarioxXVP[m> im black[m
+[00:12:39] [Async Chat Thread - #10/INFO]: [m<[0;31;22mPix3yz_[m> ???[m
+[00:12:47] [Async Chat Thread - #10/INFO]: [m<[0;31;22mVPXxdarioxXVP[m> my bad';'[m
+[00:12:55] [Async Chat Thread - #10/INFO]: [m<[0;31;22mPix3yz_[m> l[m
+[00:13:01] [Async Chat Thread - #10/INFO]: [m<[0;31;22mVPXxdarioxXVP[m> hehehe[m
+[00:13:03] [Async Chat Thread - #10/INFO]: [m<[0;31;22mPix3yz_[m> 4[m
+[00:13:10] [Async Chat Thread - #10/INFO]: [m<[0;31;22mPix3yz_[m> g[m
+[00:13:13] [Async Chat Thread - #10/INFO]: [m<[0;31;22mVPXxdarioxXVP[m> srry[m
+[00:13:17] [Async Chat Thread - #10/INFO]: [m<[0;31;22mPix3yz_[m> g[m
+[00:13:23] [Async Chat Thread - #10/INFO]: [m<[0;31;22mVPXxdarioxXVP[m> what are you saying[m
+[00:13:24] [Async Chat Thread - #10/INFO]: [m<[0;31;22mPix3yz_[m> y[m
+[00:13:34] [Async Chat Thread - #10/INFO]: [m<[0;31;22mVPXxdarioxXVP[m> laggy?[m
+[00:13:46] [Server thread/INFO]: 06NinjaKid06 issued server command: /whisper VPXxdarioxXVP does she know how to tpa
+[00:13:49] [Async Chat Thread - #10/INFO]: [m<[0;31;22mPix3yz_[m> ye[m
+[00:14:02] [Async Chat Thread - #10/INFO]: [m<[0;31;22mPix3yz_[m> 0[m
+[00:14:09] [Server thread/INFO]: Pix3yz_ issued server command: /fps
+[00:14:16] [Async Chat Thread - #10/INFO]: [m<[0;31;22mPix3yz_[m> fps[m
+[00:14:19] [Async Chat Thread - #10/INFO]: [m<[0;31;22mVPXxdarioxXVP[m> guys ima go too laggy cya tommorow ill get on if im bored[m
+[00:14:25] [Async Chat Thread - #10/INFO]: [m<[0;31;22m06NinjaKid06[m> bye[m
+[00:14:29] [Server thread/INFO]: Pix3yz_ issued server command: /bye
+[00:14:29] [Async Chat Thread - #10/INFO]: [m<[0;31;22mVPXxdarioxXVP[m> bye[m
+[00:14:33] [Server thread/INFO]: VPXxdarioxXVP lost connection: Disconnected
+[00:14:33] [Server thread/INFO]: VPXxdarioxXVP left the game.
+[00:14:39] [Async Chat Thread - #10/INFO]: [m<[0;31;22m06NinjaKid06[m> try to turn down your render distance[m
+[00:14:45] [Async Chat Thread - #10/INFO]: [m<[0;31;22mPix3yz_[m> wtf[m
+[00:15:02] [Async Chat Thread - #10/INFO]: [m<[0;31;22m06NinjaKid06[m> dont tell me you dont know how[m
+[00:15:26] [Server thread/INFO]: 06NinjaKid06 issued server command: /home home
+[00:15:33] [Async Chat Thread - #10/INFO]: [m<[0;31;22m06NinjaKid06[m> i gtg[m
+[00:15:45] [Async Chat Thread - #10/INFO]: [m<[0;31;22m06NinjaKid06[m> see you tommorow[m
+[00:16:02] [Async Chat Thread - #10/INFO]: [m<[0;31;22mPix3yz_[m> byw[m
+[00:16:06] [Server thread/INFO]: 06NinjaKid06 lost connection: Disconnected
+[00:16:06] [Server thread/INFO]: 06NinjaKid06 left the game.
+[00:16:49] [Server thread/INFO]: Pix3yz_ fell from a high place
+[00:17:53] [Server thread/INFO]: Pix3yz_ issued server command: /back
+[00:18:11] [Thread-20/INFO]: UUID of player VPXxdarioxXVP is f3c2757d-aaf9-3b7b-b399-7483063d4d01
+[00:18:11] [Server thread/INFO]: VPXxdarioxXVP[/192.168.177.12:55752] logged in with entity id 87878 at ([world]34.591375722391376, 79.0, -261.69748171317383)
+[00:18:23] [Async Chat Thread - #11/INFO]: [m<[0;31;22mPix3yz_[m> hi[m
+[00:18:27] [Server thread/INFO]: VPXxdarioxXVP issued server command: /lac update
+[00:18:27] [Craft Scheduler Thread - 26/INFO]: [LoginSecurity] Downloading file LoginSecurity-3.2.0-Bukkit (1).jar...
+[00:18:28] [Craft Scheduler Thread - 26/INFO]: [LoginSecurity] Download complete!
+[00:18:30] [Async Chat Thread - #11/INFO]: [m<[0;31;22mVPXxdarioxXVP[m> hi[m
+[00:18:39] [Async Chat Thread - #11/INFO]: [m<[0;31;22mVPXxdarioxXVP[m> got boared[m
+[00:18:53] [Async Chat Thread - #11/INFO]: [m<[0;31;22mVPXxdarioxXVP[m> wheres conner[m
+[00:19:00] [Async Chat Thread - #11/INFO]: [m<[0;31;22mPix3yz_[m> he left[m
+[00:19:07] [Async Chat Thread - #11/INFO]: [m<[0;31;22mVPXxdarioxXVP[m> dang it[m
+[00:19:13] [Async Chat Thread - #11/INFO]: [m<[0;31;22mVPXxdarioxXVP[m> i need[m
+[00:19:17] [Async Chat Thread - #11/INFO]: [m<[0;31;22mVPXxdarioxXVP[m> conner rn[m
+[00:19:28] [Server thread/INFO]: Pix3yz_ issued server command: /tpsVPXxdarioxXVP
+[00:19:44] [Server thread/INFO]: Pix3yz_ issued server command: /tps right
+[00:19:48] [Async Chat Thread - #11/INFO]: [m<[0;31;22mVPXxdarioxXVP[m> SHOOT IM AT !%[m
+[00:19:56] [Async Chat Thread - #11/INFO]: [m<[0;31;22mVPXxdarioxXVP[m> 1%[m
+[00:20:05] [Async Chat Thread - #11/INFO]: [m<[0;31;22mPix3yz_[m> oh sheet[m
+[00:20:09] [Async Chat Thread - #11/INFO]: [m<[0;31;22mVPXxdarioxXVP[m> fuck fuck[m
+[00:20:21] [Async Chat Thread - #11/INFO]: [m<[0;31;22mVPXxdarioxXVP[m> my charger i gave it to j[m
+[00:20:31] [Async Chat Thread - #11/INFO]: [m<[0;31;22mPix3yz_[m> use a similar one[m
+[00:20:39] [Async Chat Thread - #11/INFO]: [m<[0;31;22mVPXxdarioxXVP[m> a samsung[m
+[00:20:46] [Async Chat Thread - #11/INFO]: [m<[0;31;22mPix3yz_[m> yup[m
+[00:20:56] [Async Chat Thread - #11/INFO]: [m<[0;31;22mVPXxdarioxXVP[m> ohhh thx god[m
+[00:21:03] [Async Chat Thread - #11/INFO]: [m<[0;31;22mVPXxdarioxXVP[m> it works[m
+[00:21:22] [Async Chat Thread - #11/INFO]: [m<[0;31;22mPix3yz_[m> so is it tps lowercase or upper?[m
+[00:21:25] [Server thread/INFO]: VPXxdarioxXVP issued server command: /tpa Pix3yz_
+[00:21:32] [Server thread/INFO]: Pix3yz_ issued server command: /tpaccept
+[00:21:42] [Server thread/WARN]: VPXxdarioxXVP moved wrongly!
+[00:21:55] [Async Chat Thread - #11/INFO]: [m<[0;31;22mVPXxdarioxXVP[m> wheres the base[m
+[00:22:37] [Async Chat Thread - #11/INFO]: [m<[0;31;22mVPXxdarioxXVP[m> dang it[m
+[00:22:45] [Async Chat Thread - #11/INFO]: [m<[0;31;22mVPXxdarioxXVP[m> my charger[m
+[00:22:46] [Async Chat Thread - #11/INFO]: [m<[0;31;22mPix3yz_[m> idk[m
+[00:22:54] [Async Chat Thread - #11/INFO]: [m<[0;31;22mVPXxdarioxXVP[m> says it does not charge[m
+[00:23:00] [Async Chat Thread - #11/INFO]: [m<[0;31;22mVPXxdarioxXVP[m> peace[m
+[00:23:02] [Server thread/INFO]: VPXxdarioxXVP lost connection: Internal Exception: java.io.IOException: Connection reset by peer
+[00:23:02] [Server thread/INFO]: VPXxdarioxXVP left the game.
+[00:32:22] [Server thread/INFO]: Pix3yz_ drowned
+[00:33:19] [Server thread/INFO]: Pix3yz_ issued server command: / back
+[00:33:23] [Server thread/INFO]: Pix3yz_ issued server command: /back
+[00:34:08] [Server thread/INFO]: Pix3yz_ issued server command: /tp x:-88 y:65 z:-56
+[00:35:19] [Async Chat Thread - #12/INFO]: [m<[0;31;22mPix3yz_[m> the coordinates for home are x:-88,y65,z:-56[m
+[00:35:24] [Server thread/INFO]: Pix3yz_ lost connection: Disconnected
+[00:35:24] [Server thread/INFO]: Pix3yz_ left the game.

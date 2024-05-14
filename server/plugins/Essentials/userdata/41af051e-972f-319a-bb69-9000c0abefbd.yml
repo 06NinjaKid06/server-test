@@ -16,8 +16,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1715633416324
-  login: 1715632186883
+  logout: 1715644655879
+  login: 1715641181919
 money: '0'
 last-account-name: TheBestGamer1237
 lastlocation:
@@ -31,8 +31,8 @@ lastlocation:
 logoutlocation:
   world: 986e047f-65a2-462a-8929-5a1d933502d5
   world-name: world
-  x: -47.93376512374923
-  y: 64.0
-  z: -47.543507428456735
-  yaw: -49.65673828125
-  pitch: -90.0
+  x: -75.41425662276545
+  y: 63.0
+  z: -49.21108702232065
+  yaw: 51.59989929199219
+  pitch: 8.999992370605469

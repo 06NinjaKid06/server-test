@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 192.168.177.12
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1715639855592
+  login: 1715639848800
+money: '0'
+last-account-name: YiggYigg915
+lastlocation:
+  world: 986e047f-65a2-462a-8929-5a1d933502d5
+  world-name: world
+  x: -79.5
+  y: 64.0
+  z: -53.5
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: 986e047f-65a2-462a-8929-5a1d933502d5
+  world-name: world
+  x: -87.5
+  y: 65.0
+  z: -55.5
+  yaw: 122.55001068115234
+  pitch: -90.0

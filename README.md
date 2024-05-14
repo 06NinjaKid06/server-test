@@ -1,11 +1,15 @@
 # EaglerCraftX Server
 
+
+run `sudo bash 1.sh` in terminal 1, then run `sudo bash 2.sh` in terminal 2; then make ports `25565` and `8081` public.
+
+
 ## Credits
 Original Project: Lax1Dude
 <br>
 Original Server Fork: EcoliEater87
 <br>
-## Setup Guide
+## Setup Guide [IGNORE]
 Welcome to the EaglercraftX server project! Here is how you can setup your very own eaglercraft server:
 <br>
 <br>

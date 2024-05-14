@@ -1,0 +1,9 @@
+ports:
+    - name: Server
+      description: the server, and client.
+      port: 8081
+      onOpen: open-preview
+    - name: MCServer
+      description: the MAIN server with world data
+      port: 25565
+      onOpen: notify
